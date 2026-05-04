@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <p>{format(today, "MM/dd/yyyy")}</p>
+      <p>{format(today, "MM/dd/yyyy hh:mm a")}</p>
     </>
   );
 }
